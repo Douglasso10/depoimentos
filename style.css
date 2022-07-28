@@ -1,0 +1,28 @@
+.cor_De_Fundo{
+    background-color: hsl(210, 46%, 95%);
+}
+
+.conteiner_Daniel{
+    background-color: hsl(263, 55%, 52%);
+    width: 45%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.perfil{
+    display: flex;
+    
+}
+
+.img_Daniel{
+   
+}
+
+.nome_Daniel{
+    
+
+}
+
+.graduacao{
+    word-break: break-word;
+}
