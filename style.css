@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2? family= Barlow+Semi+Condensed:wght@200;300;500;600 & display=swap');
 
 .cor_De_Fundo{
-    background-color: hsl(210, 46%, 95%);
+    background-color: rgb(236, 242, 248);
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 /* CSS DO PERFIL DO DANIEL*/
 .conteiner_Daniel{
-    background-color: hsl(263, 55%, 52%);
+    background-color: rgb(117, 65, 200);
     border-radius: 10px;
     width: 45%;
-    height: 350px;
-    
+    height: 370px;
 }
 
 .img_Daniel{
@@ -40,30 +39,31 @@
 
 .txt_D{
     margin: 0 0 0 30px;
-    text-align: justify;
+    text-align: left;
+    line-height: initial;
+    font-weight: bold;
 }
 
 .txtD_1{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
-    font-weight: bold;
     padding: 0 50px 20px 0;
 }
 
 .txtD_2{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 13px;
     padding: 0 50px 0 0;
+    line-height: 20px;
 }
 
 /*CSS DO PERFIL DO JONATHAN*/
 
 .conteiner_Jonathan{
-    background-color: hsl(217, 19%, 35%);
+    background-color: rgb(72, 85, 106);
     border-radius: 10px;
     width: 20%;
-    height: 350px;
+    height: 370px;
 }
 
 .img_Jonathan{
@@ -91,6 +91,176 @@
 
 .txt_J{
     margin: 0 0 0 30px;
-    text-align: justify;
+    text-align: left;
+    line-height: initial;
+    font-weight: bold;
+}
+
+.txtJ_1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 0 50px 20px 0;
+}
+
+.txtJ_2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0 50px 0 0;
+}
+
+/*CSS DO PERFIL DA KIRA*/
+
+.conteiner_Kira{
+    background-color:  rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 20%;
+    height: 710px;
+}
+
+.img_Kira{
+    margin: 30px 0px 0px 30px;
+    width: 50px;
+    border-radius: 60px;
+    border: 2px solid rgba(207, 207, 207, 0.5);
+}
+
+.perfil_Kira{
+    position: relative;
+    bottom: 50px;
+    margin-left: 100px;
+}
+
+.nome_Kira{
+    color: rgba(0, 0, 0, 0.8); 
+}
+
+.graduacao_Kira{
+    color:rgba(0, 0, 0, 0.5) ;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.txt_K{
+    margin: 0px 30px 0px 30px;;
+    text-align: left;
+    line-height: initial;
+    font-weight: bold;
+}
+
+.txtK_1{
+    color:  rgb(72, 85, 106);
+    font-size: 20px;
+    padding: 0 0px 20px 0px;
+}
+
+.txtK_2{
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/*CSS DO PERFIL DA JEANNETE*/
+
+.conteiner_Jeannete{
+    background-color:  rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 20%;
+    height: 350px;
+}
+
+.img_Jeannete{
+    margin: 30px 0px 0px 30px;
+    width: 50px;
+    border-radius: 60px;
+    border: 2px solid rgba(207, 207, 207, 0.5);
+}
+
+.perfil_Jeannete{
+    position: relative;
+    bottom: 50px;
+    margin-left: 100px;
+}
+
+.nome_Jeannete{
+    color: rgba(0, 0, 0, 0.8); 
+}
+
+.graduacao_Jeannete{
+    color:rgba(0, 0, 0, 0.5) ;
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.txt_Jea{
+    margin: 0px 30px 0px 30px;;
+    text-align: left;
+    line-height: initial;
+    font-weight: bold;
+}
+
+.txt_Jea_1{
+    color:  rgb(72, 85, 106);
+    font-size: 20px;
+    padding: 0 0px 20px 0px;
+}
+
+.txt_Jea_2{
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* CSS DO PERFIL DO PATRICK*/
+
+.conteiner_Patrick{
+    background-color: hsl(233, 47%, 7%);
+    border-radius: 10px;
+    width: 45%;
+    height: 350px;
+}
+
+.img_Patrick{
+    margin: 30px 0px 0px 30px;
+    width: 50px;
+    border-radius: 60px;
+    border: 2px solid rgb(117, 65, 200) ;
+}
+
+.perfil_Patrick{
+    position: relative;
+    bottom: 50px;
+    margin-left: 100px;
+    
+}
+
+.nome_Patrick{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.graduacao_Patrick{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.txt_P{
+    margin: 0 0 0 30px;
+    text-align: left;
+    line-height: initial;
+    font-weight: bold;
+}
+
+.txt_P_1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 0 50px 20px 0;
+}
+
+.txt_P_2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    padding: 0 50px 0 0;
+    line-height: 20px;
 }
 
