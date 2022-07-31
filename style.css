@@ -6,10 +6,11 @@
 }
 
 .layout{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     margin: 10px;
-    align-content: center;
+    gap: 20px;
+    
 }
 
 
@@ -17,23 +18,20 @@
 .conteiner_Daniel{
     background-color: rgb(117, 65, 200);
     border-radius: 10px;
-    width: 635px;
-    height: 340px;
-    grid-area: a;
+    width: 630px;
+    height: 320px;
 }
 
 .img_Daniel{
-    margin: 30px 0px 0px 30px;
+    float: left;
+    margin: 30px 20px 0 30px;
     width: 50px;
     border-radius: 60px;
     border: 2px solid rgba(207, 207, 207, 0.5);
 }
 
 .perfil_Daniel{
-    position: relative;
-    bottom: 50px;
-    margin-left: 100px;
-    
+    padding: 35px 0 0 0;
 }
 
 .nome_Daniel{
@@ -47,7 +45,7 @@
 }
 
 .txt_D{
-    margin: 0 0 0 30px;
+    margin: 30px 0 0 30px;
     text-align: left;
     line-height: initial;
     font-weight: bold;
@@ -72,21 +70,19 @@
     background-color: rgb(72, 85, 106);
     border-radius: 10px;
     width: 300px;
-    height: 340px;
-    grid-area: b;
+    height: 320px;
 }
 
 .img_Jonathan{
-    margin: 30px 0px 0px 30px;
+    float: left;
+    margin: 30px 20px 0 30px;
     width: 50px;
     border-radius: 60px;
     border: 2px solid rgba(207, 207, 207, 0.5);
 }
 
 .perfil_Jonathan{
-    position: relative;
-    bottom: 50px;
-    margin-left: 100px;
+    padding: 35px 0 0 0;
 }
 
 .nome_Jonathan{
@@ -100,7 +96,7 @@
 }
 
 .txt_J{
-    margin: 0 0 0 30px;
+    margin: 30px 0 0 30px;
     text-align: left;
     line-height: initial;
     font-weight: bold;
@@ -125,21 +121,19 @@
     background-color:  rgb(255, 255, 255);
     border-radius: 10px;
     width: 300px;
-    height: auto;
-    grid-area: c;
+    height: 635px;
 }
 
 .img_Kira{
-    margin: 30px 0px 0px 30px;
+    float: left;
+    margin: 30px 20px 0px 30px;
     width: 50px;
     border-radius: 60px;
     border: 2px solid rgba(207, 207, 207, 0.5);
 }
 
 .perfil_Kira{
-    position: relative;
-    bottom: 50px;
-    margin-left: 100px;
+    padding: 35px 0 0 0;
 }
 
 .nome_Kira{
@@ -153,7 +147,7 @@
 }
 
 .txt_K{
-    margin: 0px 30px 0px 30px;;
+    margin: 30px 0 0 30px;
     text-align: left;
     line-height: initial;
     font-weight: bold;
@@ -169,6 +163,7 @@
     color: rgba(0, 0, 0, 0.3);
     font-size: 13px;
     line-height: 20px;
+    padding: 0 40px 0 0;
 }
 
 /*CSS DO PERFIL DA JEANNETE*/
@@ -177,21 +172,21 @@
     background-color:  rgb(255, 255, 255);
     border-radius: 10px;
     width: 300px;
-    height: 340px;
-    grid-area: d;
+    height: 300px;
+    position: relative;
+    bottom: 320px;
 }
 
 .img_Jeannete{
-    margin: 30px 0px 0px 30px;
+    float: left;
+    margin: 30px 20px 0 30px;
     width: 50px;
     border-radius: 60px;
     border: 2px solid rgba(207, 207, 207, 0.5);
 }
 
 .perfil_Jeannete{
-    position: relative;
-    bottom: 50px;
-    margin-left: 100px;
+    padding: 35px 0 0 0;
 }
 
 .nome_Jeannete{
@@ -205,7 +200,7 @@
 }
 
 .txt_Jea{
-    margin: 0px 30px 0px 30px;;
+    margin: 30px 0 0 30px;
     text-align: left;
     line-height: initial;
     font-weight: bold;
@@ -214,13 +209,14 @@
 .txt_Jea_1{
     color:  rgb(72, 85, 106);
     font-size: 20px;
-    padding: 0 0px 20px 0px;
+    padding: 0 40px 20px 0px;
 }
 
 .txt_Jea_2{
     color: rgba(0, 0, 0, 0.3);
     font-size: 13px;
     line-height: 20px;
+    padding: 0 20px 0 0;
 }
 
 /* CSS DO PERFIL DO PATRICK*/
@@ -228,23 +224,22 @@
 .conteiner_Patrick{
     background-color: hsl(233, 47%, 7%);
     border-radius: 10px;
-    width: 635px;
-    height: 340px;
-    grid-area: e;
+    width: 630px;
+    height: 300px;
+    position: relative;
+    bottom: 320px;
 }
 
 .img_Patrick{
-    margin: 30px 0px 0px 30px;
+    float: left;
+    margin: 30px 20px 0px 30px;
     width: 50px;
     border-radius: 60px;
     border: 2px solid rgb(117, 65, 200) ;
 }
 
 .perfil_Patrick{
-    position: relative;
-    bottom: 50px;
-    margin-left: 100px;
-    
+    padding: 35px 0 0 0;
 }
 
 .nome_Patrick{
@@ -258,7 +253,7 @@
 }
 
 .txt_P{
-    margin: 0 0 0 30px;
+    margin: 30px 0 0 30px;
     text-align: left;
     line-height: initial;
     font-weight: bold;
@@ -273,7 +268,7 @@
 .txt_P_2{
     color: rgba(255, 255, 255, 0.5);
     font-size: 13px;
-    padding: 0 50px 0 0;
+    padding: 0 30px 20px 0;
     line-height: 20px;
 }
 
