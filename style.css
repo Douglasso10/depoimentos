@@ -5,12 +5,21 @@
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+.layout{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 10px;
+    align-content: center;
+}
+
+
 /* CSS DO PERFIL DO DANIEL*/
 .conteiner_Daniel{
     background-color: rgb(117, 65, 200);
     border-radius: 10px;
-    width: 45%;
-    height: 370px;
+    width: 635px;
+    height: 340px;
+    grid-area: a;
 }
 
 .img_Daniel{
@@ -62,8 +71,9 @@
 .conteiner_Jonathan{
     background-color: rgb(72, 85, 106);
     border-radius: 10px;
-    width: 20%;
-    height: 370px;
+    width: 300px;
+    height: 340px;
+    grid-area: b;
 }
 
 .img_Jonathan{
@@ -114,8 +124,9 @@
 .conteiner_Kira{
     background-color:  rgb(255, 255, 255);
     border-radius: 10px;
-    width: 20%;
-    height: 710px;
+    width: 300px;
+    height: auto;
+    grid-area: c;
 }
 
 .img_Kira{
@@ -165,8 +176,9 @@
 .conteiner_Jeannete{
     background-color:  rgb(255, 255, 255);
     border-radius: 10px;
-    width: 20%;
-    height: 350px;
+    width: 300px;
+    height: 340px;
+    grid-area: d;
 }
 
 .img_Jeannete{
@@ -216,8 +228,9 @@
 .conteiner_Patrick{
     background-color: hsl(233, 47%, 7%);
     border-radius: 10px;
-    width: 45%;
-    height: 350px;
+    width: 635px;
+    height: 340px;
+    grid-area: e;
 }
 
 .img_Patrick{
